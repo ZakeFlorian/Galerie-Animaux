@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 body {
   max-width: 1200px;
   margin: auto;
@@ -26,8 +27,11 @@ img:hover{
   opacity: 1;
   transform: scale(1.2,1.2);
   filter: sepia(0%);
+  transition: 0.3s;
+  
 }
 h1{
   text-align: center;
   color: green;
+  font-family: 'Oswald', sans-serif;
 }
